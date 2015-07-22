@@ -1,0 +1,21 @@
+{
+  "name": "kuzmich/audio-playback",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey V. Kuzin",
+      "email": "sergey@kuzin.name"
+    }
+  ],
+  "require": {
+    "php": ">=5.5",
+    "kuzmich/cache": "dev-master",
+    "kuzmich/lock": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "AutoPlayback\\": "src/"
+    }
+  }
+}
